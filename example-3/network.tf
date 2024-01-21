@@ -98,7 +98,7 @@ resource "aws_security_group" "bastion_ssh" {
   vpc_id      = aws_vpc.customervpc.id
 
   ingress {
-    description = "ssh"
+    description = "ingress ssh"
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
@@ -106,6 +106,7 @@ resource "aws_security_group" "bastion_ssh" {
   }
 
   egress {
+    description = "egress ssh"
     from_port   = 0
     to_port     = 0
     protocol    = "-1"
