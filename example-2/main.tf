@@ -22,7 +22,7 @@ resource "aws_instance" "test_instance-1" {
   ami                         = "test-ami"
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.public_subnet.id
-  associate_public_ip_address = "true"  
+  associate_public_ip_address = "true"
   tags = {
     Name = "public_server-1"
 
