@@ -59,7 +59,7 @@ resource "aws_route_table_association" "nat_public" {
 
 # create eip for nat gw
 resource "aws_eip" "nat_eip" {
-  vpc = true
+  domain = "vpc"
 }
 
 # nat gw
