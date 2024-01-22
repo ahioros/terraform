@@ -1,4 +1,15 @@
+terraform {
+  required_version = ">= 1.0.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.33.0"
+    }
+  }
+}
 provider "aws" {
+
   endpoints {
     apigateway     = "http://localhost:4566"
     cloudformation = "http://localhost:4566"
