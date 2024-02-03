@@ -1,3 +1,2 @@
-# Example-4
-A challenge from:
-https://github.com/docnetwork/Infra-as-code-challenge
+# Example 4
+* Use locals

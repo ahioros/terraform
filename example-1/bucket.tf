@@ -1,11 +1,9 @@
 resource "aws_s3_bucket" "bucket" {
-  bucket = "guillu-bucket"
+  bucket = "usertest1234-bucket"
 
   tags = merge({
-    Name    = "Bucket de Guillo"
-    Project = "Proyecto de test"
+    Name    = "Bucket de usertest"
+    Project = "User Test Project"
     region  = "us-east-1"
-
   })
-
 }

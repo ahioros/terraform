@@ -1,9 +1,9 @@
-#Example-3
-One VPC
-2 subnets (private and public)
-security groups for every network
-1 internet gateway
-1 bastion server
-1 webserver
-1 mysqlserver
+# Example 3
+* Create 1 VPC
+* Create 2 subnets (private and public)
+* Create security groups for each network
+* Create 1 internet gateway
+* Create 1 bastion server
+* Create 1 webserver
+* Create 1 mysqlserver
 
