@@ -8,6 +8,7 @@ Examples using localstack
 ## How to use
 
 Prerequisites:
+
     - pre-commit: https://pre-commit.com
     - localstack must be running:
 
