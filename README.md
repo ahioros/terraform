@@ -5,6 +5,10 @@ All examples are using terraform-local and awscli-local tools to run use localst
 ## Localstack
 Examples using localstack
 
+## How to install localstack
+
+You can read my blog: [How to install localstack with docker](https://www.ahioros.info/2024/05/how-to-install-localstack-with-docker.html)
+
 ## How to use
 
 Prerequisites:
